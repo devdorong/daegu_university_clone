@@ -2,6 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
+import IndexPage from "./pages/IndexPage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+root.render(
+  <div className="wrap">
+    <IndexPage></IndexPage>
+  </div>,
+);
